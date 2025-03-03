@@ -5,8 +5,8 @@
                 "json": "FRV",
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
-                "url": "https://regateiro.pt/5etools/homebrew/fjarrenvold.json",
-                "version": "1.0.5",
+                "url": "https://github.com/Regateiro/fjarrenvold/blob/main/fjarrenvold.json",
+                "version": "1.0.0",
                 "authors": [
                     "Valasca"
                 ],
