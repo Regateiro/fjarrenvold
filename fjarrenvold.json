@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://github.com/Regateiro/fjarrenvold/blob/main/fjarrenvold.json",
-                "version": "1.0.8",
+                "version": "1.0.9",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741033159
+        "dateLastModified": 1741033276
     },
     "background": [
         {
@@ -1930,9 +1930,9 @@
             "entries": [
                 {
                     "type": "entries",
-                    "name": "Rarity",
+                    "name": "Lifespan and Rarity",
                     "entries": [
-                        "Aasimar are a Rare species."
+                        "Aasimar typically live for up to 200 years and are a Rare species."
                     ]
                 },
                 {
