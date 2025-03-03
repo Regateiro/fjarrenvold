@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://github.com/Regateiro/fjarrenvold/blob/main/fjarrenvold.json",
-                "version": "1.0.9",
+                "version": "1.0.10",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741033276
+        "dateLastModified": 1741034743
     },
     "background": [
         {
@@ -1997,6 +1997,141 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dark Elf",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 500
+            },
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 120,
+            "resist": [
+                "necrotic",
+                "radiant"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "light|xphb#c"
+                        ]
+                    },
+                    "innate": {
+                        "3": {
+                            "daily": {
+                                "1": [
+                                    "moonbeam|xphb"
+                                ]
+                            }
+                        },
+                        "5": {
+                            "daily": {
+                                "1": [
+                                    "misty step|xphb"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 5-7 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Dark Elves typically live for up to 500 years and are a Rare species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lunar Vision",
+                    "entries": [
+                        "You can see in dim light within 120 feet as if it were bright light and in darkness as if it were dim light. You can discern color in darkness, unlike most {@sense Darkvision|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Celestial Magic",
+                    "entries": [
+                        "You know the {@spell Light|XPHB} cantrip. At 3rd level, you can cast {@spell Moonbeam|XPHB} once per long rest. At 5th level, you can cast {@spell Misty Step|XPHB} once per long rest. Intelligence, Wisdom or Charisma is your spellcasting ability for these spells, chosen when you select this species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ethereal Balance",
+                    "entries": [
+                        "The moon's cycles grant you resilience and clarity. You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} against being {@condition Blinded|XPHB}, and you are {@variantrule Immunity|XPHB|Immune} to magical sleep."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Phases of the Moon",
+                    "entries": [
+                        "Your connection to the moon's cycles influences your magic. At the end of a {@variantrule Long Rest|XPHB}, choose one of the phases of the moon from the Moon Phase table to influence your abilities.",
+                        {
+							"type": "table",
+							"caption": "Moon Phase",
+							"colLabels": [
+								"Moon Phase",
+								"Magical Influence"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-12"
+							],
+							"rows": [
+								[
+									"Full Moon",
+									"Gain {@variantrule Temporary Hit Points|XPHB} equal to your level plus your Intelligence, Wisdom or Charisma, determined by your Celestial Magic trait. These hit points last until expended or until your next {@variantrule Long Rest|XPHB}."
+								],
+								[
+									"Crescent Moon",
+									"Once before your next {@variantrule Long Rest|XPHB}, you can call upon the power of the moon to gain a +1 bonus to {@variantrule Attack Roll|XPHB|Attack Rolls} made with ranged weapons or spell attacks for 1 minute."
+								],
+								[
+									"New Moon",
+									"When you hit a creature with a spell or weapon attack, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your proficiency bonus, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
+								]
+							]
+						}
                     ]
                 }
             ]
