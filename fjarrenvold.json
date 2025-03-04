@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.17",
+                "version": "1.0.18",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741131304
+        "dateLastModified": 1741132101
     },
     "background": [
         {
@@ -3133,6 +3133,108 @@
                     "name": "Natural Affinity",
                     "entries": [
                         "Your connection to nature gives you an intuitive connection to the natural world and the animals within it. You therefore have {@variantrule Proficiency|XPHB} in one of the following skills of your choice: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, or {@skill Survival}."
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name": "Firbolg",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "con",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 300
+            },
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+			"skillProficiencies": [
+                {
+				    "athletics": true
+                }
+			],
+			"traitTags": [
+				"Powerful Build"
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"innate": {
+						"1": [
+							"detect magic|xphb",
+							"disguise self|xphb"
+						]
+					}
+				}
+			],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 6-7 feet tall)"
+                ]
+            },
+            "entries": [
+                "Firbolgs are a gentle yet imposing race of forest-dwelling giants, deeply attuned to the natural world and dedicated to maintaining balance and harmony. Firbolgs live in small, close-knit clans, often in secluded groves, ancient forests, or mist-shrouded valleys far from the civilizations of other races.",
+                "Firbolgs are deeply spiritual, believing in the interconnectedness of all living things. They worship nature deities, particularly those associated with forests, animals, and the natural order.",
+                "Firbolgs are natural diplomats when dealing with creatures of the wild. Their understanding of animals and plants often enables them to solve conflicts without bloodshed. They take the long view in all things, often pausing to think deeply before taking action. Their innate connection to nature gives them magical abilities, particularly those tied to the land they protect.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Firbolgs typically live up to 300 years and are an Uncommon species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Firbolg Magic",
+                    "entries": [
+                        "You can cast {@spell Detect Magic|XPHB} and {@spell Disguise Self|XPHB} with this trait. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait, selected when you choose this species.",
+                        "Once you cast either spell, you can’t cast it again with this trait until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. When you use this version of {@spell Disguise Self|XPHB}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hidden Step",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can magically turn {@condition Invisible|XPHB} until the start of your next turn or until you attack, make a damage roll, or force someone to make a {@variantrule Saving Throw|XPHB}. Once you use this trait, you can’t use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speech of Beast and Leaf",
+                    "entries": [
+                        "You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have {@variantrule Advantage|XPHB} on all Charisma checks you make to influence them."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Forest Guardian’s Strength",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} in the {@skill Athletics} skill. Additionally, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
                     ]
                 }
             ]
