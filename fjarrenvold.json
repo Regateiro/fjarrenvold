@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.16",
+                "version": "1.0.17",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741130830
+        "dateLastModified": 1741131304
     },
     "background": [
         {
@@ -3045,6 +3045,94 @@
                     "name": "Mask of the Wild",
                     "entries": [
                         "Your base walking speed increases to 35 feet and you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Faun",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "con",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 120
+            },
+            "size": [
+                "M"
+            ],
+            "speed": 35,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"medicine",
+							"nature",
+                            "survival"
+						]
+					}
+				}
+			],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 4-6 feet tall)"
+                ]
+            },
+            "entries": [
+                "Fauns are an enigmatic and joyful race of humanoid creatures with the features of both mortals and wild beasts. Bearing the legs of a goat, cloven hooves, and horns that grow larger with age and experience, they are as much a part of the untamed wilderness as the trees and streams they call home.",
+                "Fauns are striking and unmistakable in appearance. Their humanoid upper bodies are lithe and athletic, with skin tones ranging from earthy browns to vibrant greens and golds. Their hair, often wild and untamed, grows in shades reminiscent of natural elements, such as mossy green, fiery red, or autumn gold.",
+                "Faun society is deeply communal, centered around the idea of harmony with nature and each other. They often form loose, nomadic tribes that travel through forests, meadows, and hills, living in tune with the seasons. Their homes are crafted from natural materials, blending seamlessly with their surroundings and leaving no lasting mark on the land.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Faun typically live up to 120 years and are an Uncommon species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Powerful Hooves",
+                    "entries": [
+                        "You can easily jump up to 20 feet plus your strength score with a running start."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mighty Horns",
+                    "entries": [
+                        "Your horns are natural melee weapons, which you can use a {@action Utilize|XPHB} action to make unarmed strike with. If you hit with them, you deal piercing damage equal to {@damage 1d6} + your Strength modifier instead of the bludgeoning damage normal for an unarmed strike.",
+                        "This damage increases by {@damage 1d6} when you reach character levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Using Your head",
+                    "entries": [
+                        "Immediately after you move at least 30 feet on your turn, you can make one melee attack with your horns as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Affinity",
+                    "entries": [
+                        "Your connection to nature gives you an intuitive connection to the natural world and the animals within it. You therefore have {@variantrule Proficiency|XPHB} in one of the following skills of your choice: {@skill Animal Handling}, {@skill Medicine}, {@skill Nature}, or {@skill Survival}."
                     ]
                 }
             ]
