@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.15",
+                "version": "1.0.16",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741129313
+        "dateLastModified": 1741130830
     },
     "background": [
         {
@@ -2179,7 +2179,7 @@
 				]
 			},
 			"entries": [
-                "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the world with people created in their image. Another story claims that dragons created the first dragonborn without the gods’ blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.",
+                "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the world with people created in their image. Another story claims that dragons created the first dragonborn without the gods' blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.",
                 "Dragonborn look like wingless, bipedal dragons - scaly, bright-eyed, and thick-boned with horns on their heads - and their coloration and other features are reminiscent of their draconic ancestors.",
                 {
                     "type": "entries",
@@ -2613,7 +2613,7 @@
                 "Dwarves are a proud and ancient race, shaped by the stone and fire of the world itself. Known for their resilience, craftsmanship, and unyielding loyalty, they are the children of the mountains and the caverns, their history etched in the very bedrock of the realms they inhabit.",
                 "Many dwarves believe their lineage ties directly to the great mountains that dot the landscapes, with clans often claiming descent from specific peaks or caverns. These ancestral ties shape their culture and give each clan a unique identity, symbolized through heraldry, artifacts, and meticulously preserved histories.",
                 "Dwarves are stocky and sturdy, their physical forms reflecting their connection to stone and endurance. Standing shorter than most other races, they make up for their lack of height with broad shoulders, dense muscle, and a natural resistance to hardship. Their skin tones range from the deep bronze of polished ore to the pale gray of granite, and their eyes often gleam with colors reminiscent of precious gems.",
-                "As a Stonesmith dwarf, you’re strong and hardy, accustomed to a life in front of a forge but trained to handle yourself in a brawl.",
+                "As a Stonesmith dwarf, you're strong and hardy, accustomed to a life in front of a forge but trained to handle yourself in a brawl.",
                 {
                     "type": "entries",
                     "name": "Lifespan and Rarity",
@@ -2699,7 +2699,7 @@
                 ]
             },
             "entries": [
-                "The Eladrin are an ancient and enigmatic elven subrace, deeply entwined with the natural world. Unlike their kin who remain stewards of forests or cities, the Eladrin are uniquely attuned to the ebb and flow of nature’s seasons and energies. Over millennia, their bond with the wilds has grown so profound that they have physically and spiritually fused with the plants and flora around them, their bodies evolving to reflect the season of their lives.",
+                "The Eladrin are an ancient and enigmatic elven subrace, deeply entwined with the natural world. Unlike their kin who remain stewards of forests or cities, the Eladrin are uniquely attuned to the ebb and flow of nature's seasons and energies. Over millennia, their bond with the wilds has grown so profound that they have physically and spiritually fused with the plants and flora around them, their bodies evolving to reflect the season of their lives.",
                 "Eladrin mythology tells of a time long ago when their ancestors fled a dying forest, their lives and magic bound to its fading lifeforce. Desperate to survive, they beseeched the natural spirits and the gods of the wild for salvation. In an act of divine grace—or perhaps through an ancient ritual lost to time—the elves merged with the essence of nature itself. The forest was reborn through them, and they became its living extension.",
                 "As the Eladrin age and mature, their plantlike features become more pronounced, reflecting both their individual essence and the seasonal impact of their lives. Each season is not merely a reflection of appearance but also temperament. Many Eladrin find their personalities subtly shifting with the turning of the seasons, allowing them to adapt to the changing needs of their people and the world around them.",
                 {
@@ -2728,7 +2728,7 @@
 							"rows": [
 								[
 									"1",
-									"{@b Spring}: Cheerfulness and celebration, marked by merriment and hope as winter’s sorrow passes."
+									"{@b Spring}: Cheerfulness and celebration, marked by merriment and hope as winter's sorrow passes."
 								],
 								[
 									"2",
@@ -2736,7 +2736,7 @@
 								],
 								[
 									"3",
-									"{@b Autumn}: Peace and goodwill, when summer’s harvest is shared with all."
+									"{@b Autumn}: Peace and goodwill, when summer's harvest is shared with all."
 								],
 								[
 									"4",
@@ -2750,7 +2750,7 @@
                     "type": "entries",
                     "name": "Seasonal Slumber",
                     "entries": [
-                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two proficiencies that you don’t have, each one with a weapon or a tool of your choice selected from the Player’s Handbook."
+                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook."
                     ]
                 },
                 {
@@ -2798,6 +2798,253 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Elf (High)",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 800
+            },
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard|source=xphb",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"perception",
+							"survival"
+						]
+					}
+				}
+			],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 5-8 feet tall)"
+                ]
+            },
+            "entries": [
+                "Elves are a timeless and graceful race, deeply tied to the flow of magic and the natural world. Their beauty, longevity, and innate affinity for the arcane have made them figures of fascination and reverence, as well as subjects of envy and mistrust. Each elven race reflects the environment, traditions, and magic that have shaped them over countless millennia, but all elves share a common ancestry rooted in the ancient harmony of the world.",
+                "Elves trace their origins to the Elderwood, an ancient and mystical realm believed to be the birthplace of their kind. According to legend, the spirits residing within the woods, shaped the first elves from the starlight and the whispers of the wind, imbuing them with freedom, beauty, and a deep connection to the natural world.",
+                "The earliest elves were wanderers, exploring every corner of the world and beyond. Over time, their connection to specific environments began to shape them, giving rise to distinct elven subraces such as high elves and wood elves. Despite their differences, all elves revere their ancient heritage, which teaches them to respect balance, beauty, and the passage of time.",
+                "High elves have been infused with the magic of crossings between the Spritual world and the Material Plane.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Elves typically live between 700 to 800 years and are a Common species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Arcane Ancestry",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} you make to avoid or end the {@condition Charmed|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "entries": [
+                        "You have {@variantrule Proficiency|XPHB} in the {@skill Insight}, {@skill Perception}, or {@skill Survival} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Trance",
+                    "entries": [
+                        "You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Cantrip",
+                    "entries": [
+                        "You know the {@spell Prestidigitation|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different {@filter cantrip from the Wizard spell list|spells|level=0|source=xphb|class=Wizard}. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Magical Aptitude",
+                    "entries": [
+                        "When you use your {@variantrule Reaction|XPHB} to make an {@skill Arcana} check to identify spells being cast you may do so with {@variantrule Advantage|XPHB}. You may grant yourself {@variantrule Advantage|XPHB} in this was a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Elf (Wood)",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 800
+            },
+            "size": [
+                "M"
+            ],
+            "speed": 35,
+            "darkvision": 60,
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"_": [
+							"druidcraft|xphb#c"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"perception",
+							"survival"
+						]
+					}
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"longsword|xphb": true,
+					"shortsword|xphb": true,
+					"shortbow|xphb": true,
+					"longbow|xphb": true
+				}
+			],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 5-8 feet tall)"
+                ]
+            },
+            "entries": [
+                "Elves are a timeless and graceful race, deeply tied to the flow of magic and the natural world. Their beauty, longevity, and innate affinity for the arcane have made them figures of fascination and reverence, as well as subjects of envy and mistrust. Each elven race reflects the environment, traditions, and magic that have shaped them over countless millennia, but all elves share a common ancestry rooted in the ancient harmony of the world.",
+                "Elves trace their origins to the Elderwood, an ancient and mystical realm believed to be the birthplace of their kind. According to legend, the spirits residing within the woods, shaped the first elves from the starlight and the whispers of the wind, imbuing them with freedom, beauty, and a deep connection to the natural world.",
+                "The earliest elves were wanderers, exploring every corner of the world and beyond. Over time, their connection to specific environments began to shape them, giving rise to distinct elven subraces such as high elves and wood elves. Despite their differences, all elves revere their ancient heritage, which teaches them to respect balance, beauty, and the passage of time.",
+                "Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Elves typically live between 700 to 800 years and are a Common species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Arcane Ancestry",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} you make to avoid or end the {@condition Charmed|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "entries": [
+                        "You have {@variantrule Proficiency|XPHB} in the {@skill Insight}, {@skill Perception}, or {@skill Survival} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Trance",
+                    "entries": [
+                        "You don't need to sleep, and magic can't put you to sleep. You can finish a {@variantrule Long Rest|XPHB} in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Forest Elf Training",
+                    "entries": [
+                        "You have proficiency with the {@item longsword|XPHB}, {@item shortsword|XPHB}, {@item shortbow|XPHB}, and {@item longbow|XPHB}. You also know the {@spell Druidcraft|XPHB} cantrip."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mask of the Wild",
+                    "entries": [
+                        "Your base walking speed increases to 35 feet and you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
                     ]
                 }
             ]
