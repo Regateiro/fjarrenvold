@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.13",
+                "version": "1.0.14",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741127583
+        "dateLastModified": 1741129030
     },
     "background": [
         {
@@ -2657,7 +2657,151 @@
                     ]
                 }
 			]
-		}
+		},
+        {
+            "name": "Eladrin",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "int",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 1000
+            },
+            "size": [
+                "S",
+                "M"
+            ],
+            "skillProficiencies": [
+                {
+                    "nature": true
+                }
+            ],
+            "speed": 30,
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (about 2-5 feet tall) or Medium (about 5-7 feet tall), chosen when you select this species"
+                ]
+            },
+            "entries": [
+                "The Eladrin are an ancient and enigmatic elven subrace, deeply entwined with the natural world. Unlike their kin who remain stewards of forests or cities, the Eladrin are uniquely attuned to the ebb and flow of nature’s seasons and energies. Over millennia, their bond with the wilds has grown so profound that they have physically and spiritually fused with the plants and flora around them, their bodies evolving to reflect the season of their lives.",
+                "Eladrin mythology tells of a time long ago when their ancestors fled a dying forest, their lives and magic bound to its fading lifeforce. Desperate to survive, they beseeched the natural spirits and the gods of the wild for salvation. In an act of divine grace—or perhaps through an ancient ritual lost to time—the elves merged with the essence of nature itself. The forest was reborn through them, and they became its living extension.",
+                "As the Eladrin age and mature, their plantlike features become more pronounced, reflecting both their individual essence and the seasonal impact of their lives. Each season is not merely a reflection of appearance but also temperament. Many Eladrin find their personalities subtly shifting with the turning of the seasons, allowing them to adapt to the changing needs of their people and the world around them.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Eladrin typically live well over 1000 years and are a Rare species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Season",
+                    "entries": [
+                        "The season an Eladrin is born determines their appearance and their abilities. Choose your season or roll on the Eladrin Seasons table. Your Seasonal Slumber trait lets you change your season:",
+                        {
+							"type": "table",
+							"caption": "Eladrin Seasons",
+							"colLabels": [
+								"d4",
+								"Season"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-12"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Spring}: Cheerfulness and celebration, marked by merriment and hope as winter’s sorrow passes."
+								],
+								[
+									"2",
+									"{@b Summer}: Boldness and aggression, a time of unfettered energy and calls to action."
+								],
+								[
+									"3",
+									"{@b Autumn}: Peace and goodwill, when summer’s harvest is shared with all."
+								],
+								[
+									"4",
+									"{@b Winter}: Contemplation and dolor, when the vibrant energy of the world slumbers."
+								]
+							]
+						}
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Seasonal Slumber",
+                    "entries": [
+                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two proficiencies that you don’t have, each one with a weapon or a tool of your choice selected from the Player’s Handbook."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Heritage",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} in {@skill Nature}. If you already are proficient in Nature you gain expertise instead."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spiritual Courage",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} you make to avoid or end the {@condition Frightened|XPHB} condition on yourself."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Seasonal Step",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+                        "When you reach 3rd level, your Seasonal Step gains an additional effect based on your season; if the effect requires a {@variantrule Saving Throw|XPHB}, the DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this species):",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Spring.",
+                                    "entry": "When you use your Seasonal Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Summer.",
+                                    "entry": "Immediately after you use your Seasonal Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Autumn.",
+                                    "entry": "Immediately after you use your Seasonal Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom {@variantrule Saving Throw|XPHB} or be {@condition Charmed|XPHB} by you for 1 minute, or until you or your companions deal any damage to the creatures."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Winter.",
+                                    "entry": "When you use your Seasonal Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom {@variantrule Saving Throw|XPHB} or be {@condition Frightened|XPHB} of you until the end of your next turn."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ],
     "subclass": [
         {
