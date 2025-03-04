@@ -2128,7 +2128,7 @@
 								],
 								[
 									"New Moon",
-									"When you hit a creature with a spell or weapon attack, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your proficiency bonus, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
+									"When you hit a creature with a spell or weapon attack, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
 								]
 							]
 						}
