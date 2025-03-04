@@ -1928,6 +1928,9 @@
                 ]
             },
             "entries": [
+                "Aasimar are celestial-touched beings, often seen as mortal agents of divine will. Their origins are steeped in the mysteries of the planes, born from the union of celestial beings—such as angels or empyreans—and mortals, or from divine blessings bestowed upon a mortal bloodline. Their existence is a living testament to the mingling of the divine and the mortal realms.",
+                "Many Aasimar are unaware of their celestial heritage during their early lives, discovering it only when their powers manifest or when celestial beings reveal their lineage. Their creation often ties to divine intervention during pivotal moments in mortal history—times of great peril or hope when celestial forces wished to leave a lasting mark on the world. Some are chosen as guardians, their bloodlines imbued with divine essence to ensure protection across generations. Others are accidental creations, the result of fleeting unions between celestials and mortals, their heritage lying dormant until fate calls them to action.",
+                "Aasimar typically bear features that mark their celestial origin. Their skin may emit a faint luminescence, their eyes might shine like pools of radiant light, and their hair often shimmers like threads of silver or gold. These features can range from subtle to overt, depending on the strength of their celestial bloodline.",
                 {
                     "type": "entries",
                     "name": "Lifespan and Rarity",
@@ -2073,6 +2076,10 @@
                 ]
             },
             "entries": [
+                "The Moonshadow Elves, often referred to simply as dark elves, are an enigmatic and reclusive race whose lives are shaped by their devotion to the Goddess of the Moon, Lunaral. They are a people of luminous beauty and profound magical power, blessed by the celestial light of the moon and guardians of its mysteries.",
+                "Moonshadow Elves are unmistakably otherworldly. Their skin tones range from deep indigo to a shimmering black, often flecked with silvery undertones that seem to glimmer under moonlight. Their hair is typically pale, in shades of white, silver, or light lavender, and their eyes glow softly, resembling stars or the pale light of the moon.",
+                "Their connection to Lunara grants them an innate aptitude for magic, making them some of the most potent spellcasters in the world. They are particularly skilled in illusion, enchantment, and divination, and their magic often manifests with a silver radiance. In addition, many possess an instinctive ability to move unseen and unheard, blending effortlessly into shadow and moonlight.",
+                "Moonshadow Elves are both admired and misunderstood by other races. Their reclusive nature and connection to the moon make them seem enigmatic, and their extraordinary magical abilities often inspire awe or fear. While they value diplomacy and coexistence, they are cautious of those who might exploit their gifts or disturb their sacred sites.",
                 {
                     "type": "entries",
                     "name": "Lifespan and Rarity",
@@ -2172,6 +2179,8 @@
 				]
 			},
 			"entries": [
+                "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the world with people created in their image. Another story claims that dragons created the first dragonborn without the gods’ blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.",
+                "Dragonborn look like wingless, bipedal dragons - scaly, bright-eyed, and thick-boned with horns on their heads - and their coloration and other features are reminiscent of their draconic ancestors.",
                 {
                     "type": "entries",
                     "name": "Lifespan and Rarity",
