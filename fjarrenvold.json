@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.14",
+                "version": "1.0.15",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741129030
+        "dateLastModified": 1741129031
     },
     "background": [
         {
@@ -2722,7 +2722,7 @@
 								"Season"
 							],
 							"colStyles": [
-								"col-3 text-center",
+								"col-1 text-center",
 								"col-12"
 							],
 							"rows": [
