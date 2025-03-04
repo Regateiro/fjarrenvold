@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.12",
+                "version": "1.0.13",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741126975
+        "dateLastModified": 1741127583
     },
     "background": [
         {
@@ -2470,7 +2470,87 @@
 			]
 		},
 		{
-			"name": "Dwarf",
+			"name": "Dwarf (Minesaint)",
+			"source": "FRV",
+			"page": 1,
+			"creatureTypes": [
+				"humanoid"
+			],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "con",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 250
+            },
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 120,
+			"resist": [
+				"poison"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 4-5 feet tall)"
+				]
+			},
+			"entries": [
+                "Dwarves are a proud and ancient race, shaped by the stone and fire of the world itself. Known for their resilience, craftsmanship, and unyielding loyalty, they are the children of the mountains and the caverns, their history etched in the very bedrock of the realms they inhabit.",
+                "Many dwarves believe their lineage ties directly to the great mountains that dot the landscapes, with clans often claiming descent from specific peaks or caverns. These ancestral ties shape their culture and give each clan a unique identity, symbolized through heraldry, artifacts, and meticulously preserved histories.",
+                "Dwarves are stocky and sturdy, their physical forms reflecting their connection to stone and endurance. Standing shorter than most other races, they make up for their lack of height with broad shoulders, dense muscle, and a natural resistance to hardship. Their skin tones range from the deep bronze of polished ore to the pale gray of granite, and their eyes often gleam with colors reminiscent of precious gems.",
+                "As a Minesaint dwarf, you have keen senses, deep intuition, and remarkable resilience. Loyalty and hard work are the backbone of your resolve.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Dwarves typically live for up to 250 years and are a Common species."
+                    ]
+                },
+				{
+					"type": "entries",
+					"name": "Enhanced Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Toughness",
+					"entries": [
+						"Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
+					]
+				},
+                {
+                    "type": "entries",
+                    "name": "Tool Expertise",
+                    "entries": [
+                        "Select one tool you are {@variantrule Proficiency|XPHB|proficient} with, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is now doubled for any ability check you make that uses your {@variantrule Proficiency|XPHB} with that tool."
+                    ]
+                }
+			]
+		},
+		{
+			"name": "Dwarf (Stonesmith)",
 			"source": "FRV",
 			"page": 1,
 			"creatureTypes": [
@@ -2500,6 +2580,19 @@
 			"resist": [
 				"poison"
 			],
+			"toolProficiencies": [
+				{
+					"smith's tools": true
+				}
+            ],
+			"weaponProficiencies": [
+				{
+					"choose": {
+						"fromFilter": "source=xphb|category=basic|type=martial weapon;simple weapon",
+						"count": 2
+					}
+				}
+			],
 			"sizeEntry": {
 				"type": "item",
 				"name": "Size:",
@@ -2511,6 +2604,7 @@
                 "Dwarves are a proud and ancient race, shaped by the stone and fire of the world itself. Known for their resilience, craftsmanship, and unyielding loyalty, they are the children of the mountains and the caverns, their history etched in the very bedrock of the realms they inhabit.",
                 "Many dwarves believe their lineage ties directly to the great mountains that dot the landscapes, with clans often claiming descent from specific peaks or caverns. These ancestral ties shape their culture and give each clan a unique identity, symbolized through heraldry, artifacts, and meticulously preserved histories.",
                 "Dwarves are stocky and sturdy, their physical forms reflecting their connection to stone and endurance. Standing shorter than most other races, they make up for their lack of height with broad shoulders, dense muscle, and a natural resistance to hardship. Their skin tones range from the deep bronze of polished ore to the pale gray of granite, and their eyes often gleam with colors reminiscent of precious gems.",
+                "As a Stonesmith dwarf, you’re strong and hardy, accustomed to a life in front of a forge but trained to handle yourself in a brawl.",
                 {
                     "type": "entries",
                     "name": "Lifespan and Rarity",
@@ -2518,61 +2612,6 @@
                         "Dwarves typically live for up to 250 years and are a Common species."
                     ]
                 },
-				{
-					"type": "entries",
-					"name": "Dwarven Heritage",
-					"entries": [
-						"Your Dwarven heritage grants you supernatural abilities. Choose a Heritage from the options below. Each Heritage grants you an additional Dwarven trait.",
-                        {
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Minesaint",
-									"entries": [
-                                        "As a Minesaint dwarf, you have keen senses, deep intuition, and remarkable resilience. Loyalty and hard work are the backbone of your resolve.",
-										{
-                                            "type": "entries",
-                                            "name": "Enhanced Darkvision",
-                                            "entries": [
-                                                "You have {@sense Darkvision|XPHB} with a range of 120 feet."
-                                            ]
-                                        },
-                                        {
-                                            "type": "entries",
-                                            "name": "Tool Expertise",
-                                            "entries": [
-                                                "Select one tool you are {@variantrule Proficiency|XPHB|proficient} with, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is now doubled for any ability check you make that uses your {@variantrule Proficiency|XPHB} with that tool."
-                                            ]
-                                        }
-									]
-								},
-								{
-									"type": "item",
-									"name": "Stonesmith",
-									"entries": [
-                                        "As a Stonesmith dwarf, you’re strong and hardy, accustomed to a life in front of a forge but trained to handle yourself in a brawl.",
-										{
-                                            "type": "entries",
-                                            "name": "Tool Proficiency",
-                                            "entries": [
-                                                "You gain {@variantrule Proficiency|XPHB} with {@item Smith's Tools|XPHB}."
-                                            ]
-                                        },
-                                        {
-                                            "type": "entries",
-                                            "name": "Smith Combat Training",
-                                            "entries": [
-                                                "You gain {@variantrule Proficiency|XPHB} with 2 {@filter simple or martial weapons|items|source=xphb|category=basic|type=martial weapon;simple weapon} of your choice."
-                                            ]
-                                        }
-									]
-								}
-							]
-                        }
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
@@ -2593,32 +2632,22 @@
 					"entries": [
 						"Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
 					]
-				}
-			],
-            "_versions": [
-				{
-					"name": "Dwarf; Minesaint Heritage",
-					"source": "FRV",
-                    "darkvision": 120
 				},
-				{
-					"name": "Dwarf; Stonesmith Heritage",
-					"source": "FRV",
-                    "toolProficiencies": [
-                        {
-                            "smith's tools": true
-                        }
-                    ],
-                    "weaponProficiencies": [
-                        {
-                            "choose": {
-                                "fromFilter": "source=xphb|category=basic|type=martial weapon;simple weapon",
-                                "count": 2
-                            }
-                        }
+                {
+                    "type": "entries",
+                    "name": "Tool Proficiency",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with {@item Smith's Tools|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Smith Combat Training",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with 2 {@filter simple or martial weapons|items|source=xphb|category=basic|type=martial weapon;simple weapon} of your choice."
                     ]
                 }
-            ]
+			]
 		}
     ],
     "subclass": [
