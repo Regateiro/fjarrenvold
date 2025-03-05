@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.27",
+                "version": "1.0.28",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741201281
+        "dateLastModified": 1741201788
     },
     "background": [
         {
@@ -3666,7 +3666,7 @@
                     "type": "entries",
                     "name": "Luck",
                     "entries": [
-                        "When you roll a 1 on a {@variantrule D20 Test|XPHB}, you can reroll the die, and you must use the new roll."
+                        "When you roll a 1 on a d20 of a {@variantrule D20 Test|XPHB}, you can reroll the die, and you must use the new roll."
                     ]
                 },
                 {
@@ -3951,6 +3951,91 @@
                     "name": "Keen Senses",
                     "entries": [
                         "You gain {@variantrule Proficiency|XPHB} with the {@skill Perception} skill."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Simiah",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 40
+            },
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "climb": true
+            },
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "acrobatics",
+                            "athletics"
+                        ]
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "anyArtisansTool": 1
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (About 4-5 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Climbing Grip",
+                    "entries": [
+                        "You have a {@variantrule Climb Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Acrobatic Mastery",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} in either {@skill Acrobatics} or {@skill Athletics}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Artisan",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} in one set of {@filter artisan's tools|items|source=xphb|miscellaneous=mundane|type=artisan's tools} of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Prehensile Tail",
+                    "entries": [
+                        "You have a prehensile tail that allows you to maintain balance and dexterity in precarious situations. When you are in an environment where your tail can wrap around a suitable point\u2014such as a tree branch, rock outcrop, or similar structure\u2014you can use your tail to hang while keeping both of your hands free to wield weapons or perform other tasks.",
+                        "While hanging from your tail, you can hold and wield weapons with your hands, even while your tail is supporting your weight. This allows you to use your weapons without losing your grip or control, enabling you to perform attacks, cast spells, or use other items as needed.",
+                        "Your tail cannot support your weight if you are wearing heavy armor or are carrying more than your carrying capacity."
                     ]
                 }
             ]
