@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.19",
+                "version": "1.0.20",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741189642
+        "dateLastModified": 1741197362
     },
     "background": [
         {
@@ -3234,6 +3234,227 @@
                     "name": "Forest Guardian\u2019s Strength",
                     "entries": [
                         "You gain {@variantrule Proficiency|XPHB} in the {@skill Athletics} skill. Additionally, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fungril (Flatcap)",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "plant"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 50
+            },
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "innate": {
+                        "1": {
+                            "daily": {
+                                "1": [
+                                    "speak with plants|xphb"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "alchemist's supplies|xphb": true
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (About 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
+                ]
+            },
+            "entries": [
+                "Fungril are intelligent, sentient fungi that live in deep within the darkest depths of forests. The largest Fungril in a colony is its sovereign, which presides over one or more social groups called circles, which live in quiet groves exploding with the color of the diverse plants, fungi, and compost within. A circle of Fungril that work and live together with the sovereign, which settles disputes and makes decisions to benefit the entire group.",
+                "Fungril are bipedal, with strong, squat bodies supported by strong, trunklike legs with vestigial toes. Each myconid has two arms that ends with a pair of fingers and a single thumb, more than sufficient for their simple agriculture.",
+                "It is rare that a Fungril voluntarily leaves their circles for long. Their love of community restricts nearly all Fungril to their arboreal homes. What few Fungril dare venture out into the world have distinct reasons for leaving their comfortable, insular homes and traveling out into the wider world.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Fungril mature quickly, they are considered an adult once they reach the age of 10. On average, they live about 50 years. Fungril are a Rare species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fungril Network",
+                    "entries": [
+                        "You can use a {@action Magic|XPHB} action to cast the {@spell Speak with Plants|XPHB} spell once per {@variantrule Long Rest|XPHB} without expending a spell slot. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Death Connection",
+                    "entries": [
+                        "You can use an {@action Influence|XPHB} action to touch a corpse that died within the past 24 hours and extract a memory relating to one of the following emotions: Anger, Fear, Happiness, Sadness. Once a corpse has had a memory extracted, they cannot be interacted with via death connection again."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mycelial Restoration",
+                    "entries": [
+                        "Whenever you or another creature rolls a 1 on a die roll that restores your {@variantrule Hit Points|XPHB}, you can reroll the die. You must use the new roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fungal Alchemy",
+                    "entries": [
+                        "You have an innate understanding of alchemy, often using your own spores as ingredients. You gain {@variantrule Proficiency|XPHB} in {@item Alchemist's Supplies|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fungril Formation (Flatcap)",
+                    "entries": [
+                        "As a {@variantrule Reaction|XPHB} to taking damage from a melee {@variantrule Weapon Attack|XPHB} you may lower your head, softening the blow against your springy cap. You may reduce the Bludgeoning, Piercing or Slashing damage from an attack by {@dice 1d6} + your level."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fungril (Spore Shedder)",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "plant"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 50
+            },
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "poison spray|xphb#c"
+                        ]
+                    },
+                    "innate": {
+                        "1": {
+                            "daily": {
+                                "1": [
+                                    "speak with plants|xphb"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "alchemist's supplies|xphb": true
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (About 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
+                ]
+            },
+            "entries": [
+                "Fungril are intelligent, sentient fungi that live in deep within the darkest depths of forests. The largest Fungril in a colony is its sovereign, which presides over one or more social groups called circles, which live in quiet groves exploding with the color of the diverse plants, fungi, and compost within. A circle of Fungril that work and live together with the sovereign, which settles disputes and makes decisions to benefit the entire group.",
+                "Fungril are bipedal, with strong, squat bodies supported by strong, trunklike legs with vestigial toes. Each myconid has two arms that ends with a pair of fingers and a single thumb, more than sufficient for their simple agriculture.",
+                "It is rare that a Fungril voluntarily leaves their circles for long. Their love of community restricts nearly all Fungril to their arboreal homes. What few Fungril dare venture out into the world have distinct reasons for leaving their comfortable, insular homes and traveling out into the wider world.",
+                {
+                    "type": "entries",
+                    "name": "Lifespan and Rarity",
+                    "entries": [
+                        "Fungril mature quickly, they are considered an adult once they reach the age of 10. On average, they live about 50 years. Fungril are a Rare species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fungril Network",
+                    "entries": [
+                        "You can use a {@action Magic|XPHB} action to cast the {@spell Speak with Plants|XPHB} spell once per {@variantrule Long Rest|XPHB} without expending a spell slot. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Death Connection",
+                    "entries": [
+                        "You can use an {@action Influence|XPHB} action to touch a corpse that died within the past 24 hours and extract a memory relating to one of the following emotions: Anger, Fear, Happiness, Sadness. Once a corpse has had a memory extracted, they cannot be interacted with via death connection again."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mycelial Restoration",
+                    "entries": [
+                        "Whenever you or another creature rolls a 1 on a die roll that restores your {@variantrule Hit Points|XPHB}, you can reroll the die. You must use the new roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fungal Alchemy",
+                    "entries": [
+                        "You have an innate understanding of alchemy, often using your own spores as ingredients. You gain {@variantrule Proficiency|XPHB} in {@item Alchemist's Supplies|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fungril Formation (Spore Shedder)",
+                    "entries": [
+                        "You know the {@spell Poison Spray|XPHB} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this formation."
                     ]
                 }
             ]
