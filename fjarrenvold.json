@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.22",
+                "version": "1.0.23",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741199243
+        "dateLastModified": 1741199677
     },
     "background": [
         {
@@ -3609,6 +3609,71 @@
                     "name": "Skin of Stone",
                     "entries": [
                         "You have {@variantrule Resistance|XPHB} to Cold damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Halfling",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "int",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 150
+            },
+            "size": [
+                "S"
+            ],
+            "speed": 30,
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (About 2-3 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Brave",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on {@variantrule Saving Throw|XPHB|Saving Throws} you make to avoid or end the {@condition Frightened|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Halfling Nimbleness",
+                    "entries": [
+                        "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Luck",
+                    "entries": [
+                        "When you roll a 1 on a {@variantrule D20 Test|XPHB}, you can reroll the die, and you must use the new roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Naturally Stealthy",
+                    "entries": [
+                        "You can take the {@action Hide|XPHB} action even when you are obscured only by a creature that is at least one size larger than you."
                     ]
                 }
             ]
