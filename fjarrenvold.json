@@ -1928,8 +1928,8 @@
                 ]
             },
             "entries": [
-                "Aasimar are celestial-touched beings, often seen as mortal agents of divine will. Their origins are steeped in the mysteries of the planes, born from the union of celestial beings—such as angels or empyreans—and mortals, or from divine blessings bestowed upon a mortal bloodline. Their existence is a living testament to the mingling of the divine and the mortal realms.",
-                "Many Aasimar are unaware of their celestial heritage during their early lives, discovering it only when their powers manifest or when celestial beings reveal their lineage. Their creation often ties to divine intervention during pivotal moments in mortal history—times of great peril or hope when celestial forces wished to leave a lasting mark on the world. Some are chosen as guardians, their bloodlines imbued with divine essence to ensure protection across generations. Others are accidental creations, the result of fleeting unions between celestials and mortals, their heritage lying dormant until fate calls them to action.",
+                "Aasimar are celestial-touched beings, often seen as mortal agents of divine will. Their origins are steeped in the mysteries of the planes, born from the union of celestial beings\u2014such as angels or empyreans\u2014and mortals, or from divine blessings bestowed upon a mortal bloodline. Their existence is a living testament to the mingling of the divine and the mortal realms.",
+                "Many Aasimar are unaware of their celestial heritage during their early lives, discovering it only when their powers manifest or when celestial beings reveal their lineage. Their creation often ties to divine intervention during pivotal moments in mortal history\u2014times of great peril or hope when celestial forces wished to leave a lasting mark on the world. Some are chosen as guardians, their bloodlines imbued with divine essence to ensure protection across generations. Others are accidental creations, the result of fleeting unions between celestials and mortals, their heritage lying dormant until fate calls them to action.",
                 "Aasimar typically bear features that mark their celestial origin. Their skin may emit a faint luminescence, their eyes might shine like pools of radiant light, and their hair often shimmers like threads of silver or gold. These features can range from subtle to overt, depending on the strength of their celestial bloodline.",
                 {
                     "type": "entries",
@@ -2114,42 +2114,42 @@
                     "entries": [
                         "Your connection to the moon's cycles influences your magic. At the end of a {@variantrule Long Rest|XPHB}, choose one of the phases of the moon from the Moon Phase table to influence your abilities.",
                         {
-							"type": "table",
-							"caption": "Moon Phase",
-							"colLabels": [
-								"Moon Phase",
-								"Magical Influence"
-							],
-							"colStyles": [
-								"col-3 text-center",
-								"col-12"
-							],
-							"rows": [
-								[
-									"Full Moon",
-									"Gain {@variantrule Temporary Hit Points|XPHB} equal to your level plus your Intelligence, Wisdom or Charisma, determined by your Celestial Magic trait. These hit points last until expended or until your next {@variantrule Long Rest|XPHB}."
-								],
-								[
-									"Crescent Moon",
-									"Once before your next {@variantrule Long Rest|XPHB}, you can call upon the power of the moon to gain a +1 bonus to {@variantrule Attack Roll|XPHB|Attack Rolls} made with ranged weapons or spell attacks for 1 minute."
-								],
-								[
-									"New Moon",
-									"When you hit a creature with a spell or weapon attack, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
-								]
-							]
-						}
+                            "type": "table",
+                            "caption": "Moon Phase",
+                            "colLabels": [
+                                "Moon Phase",
+                                "Magical Influence"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-12"
+                            ],
+                            "rows": [
+                                [
+                                    "Full Moon",
+                                    "Gain {@variantrule Temporary Hit Points|XPHB} equal to your level plus your Intelligence, Wisdom or Charisma, determined by your Celestial Magic trait. These hit points last until expended or until your next {@variantrule Long Rest|XPHB}."
+                                ],
+                                [
+                                    "Crescent Moon",
+                                    "Once before your next {@variantrule Long Rest|XPHB}, you can call upon the power of the moon to gain a +1 bonus to {@variantrule Attack Roll|XPHB|Attack Rolls} made with ranged weapons or spell attacks for 1 minute."
+                                ],
+                                [
+                                    "New Moon",
+                                    "When you hit a creature with a spell or weapon attack, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
+                                ]
+                            ]
+                        }
                     ]
                 }
             ]
         },
         {
-			"name": "Dragonborn",
-			"source": "FRV",
-			"page": 1,
-			"creatureTypes": [
-				"humanoid"
-			],
+            "name": "Dragonborn",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
             "ability": [
                 {
                     "choose": {
@@ -2166,19 +2166,19 @@
             "age": {
                 "max": 140
             },
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"sizeEntry": {
-				"type": "item",
-				"name": "Size:",
-				"entries": [
-					"Medium (about 5-7 feet tall)"
-				]
-			},
-			"entries": [
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 5-7 feet tall)"
+                ]
+            },
+            "entries": [
                 "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the world with people created in their image. Another story claims that dragons created the first dragonborn without the gods' blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.",
                 "Dragonborn look like wingless, bipedal dragons - scaly, bright-eyed, and thick-boned with horns on their heads - and their coloration and other features are reminiscent of their draconic ancestors.",
                 {
@@ -2188,303 +2188,303 @@
                         "Dragonborn typically live for up to 140 years and are an Uncommon species."
                     ]
                 },
-				{
-					"type": "entries",
-					"name": "Draconic Ancestry",
-					"entries": [
-						"Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and {@variantrule Damage|XPHB} {@variantrule Resistance|XPHB} traits as well as your appearance.",
-						{
-							"type": "table",
-							"caption": "Draconic Ancestors",
-							"colLabels": [
-								"Dragon",
-								"Damage Type"
-							],
-							"colStyles": [
-								"col-6",
-								"col-6"
-							],
-							"rows": [
-								[
-									"Amethyst",
-									"Force"
-								],
-								[
-									"Black",
-									"Acid"
-								],
-								[
-									"Blue",
-									"Lightning"
-								],
-								[
-									"Brass",
-									"Fire"
-								],
-								[
-									"Bronze",
-									"Lightning"
-								],
-								[
-									"Copper",
-									"Acid"
-								],
-								[
-									"Crystal",
-									"Radiant"
-								],
-								[
-									"Emerald",
-									"Psychic"
-								],
-								[
-									"Gold",
-									"Fire"
-								],
-								[
-									"Green",
-									"Poison"
-								],
-								[
-									"Red",
-									"Fire"
-								],
-								[
-									"Sapphire",
-									"Thunder"
-								],
-								[
-									"Silver",
-									"Cold"
-								],
-								[
-									"Topaz",
-									"Necrotic"
-								],
-								[
-									"White",
-									"Cold"
-								]
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Breath Weapon",
-					"entries": [
-						"When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ({@dc 8} plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes {@damage 1d10} damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by {@damage 1d10} when you reach character levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10}).",
-						"You can use this Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
-						"Intelligence, Wisdom or Charisma is your ability modifier for your breath weapon, chosen when selecting this species."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Damage Resistance",
-					"entries": [
-						"You have {@variantrule Resistance|XPHB} to the damage type determined by your Draconic Ancestry trait."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 60 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Flight",
-					"entries": [
-						"When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a {@variantrule Bonus Action|XPHB}, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the {@condition Incapacitated|XPHB} condition. During that time, you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
-					]
-				}
-			],
-			"_versions": [
-				{
-					"_abstract": {
-						"name": "Dragonborn ({{color}})",
-						"source": "FRV",
-						"_mod": {
-							"entries": [
-								{
-									"mode": "removeArr",
-									"names": "Draconic Ancestry"
-								},
-								{
-									"mode": "replaceArr",
-									"replace": "Breath Weapon",
-									"items": {
-										"type": "entries",
-										"name": "Breath Weapon",
-										"entries": [
-											"When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ({@dc 8} plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes {@damage 1d10} {{damageType}} damage. On a successful save, a creature takes half as much damage. This damage increases by {@damage 1d10} when you reach character levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10}).",
-											"You can use this Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
-						                    "Intelligence, Wisdom or Charisma is your ability modifier for your breath weapon, chosen when selecting this species."
-										]
-									}
-								},
-								{
-									"mode": "replaceArr",
-									"replace": "Damage Resistance",
-									"items": {
-										"type": "entries",
-										"name": "Damage Resistance",
-										"entries": [
-											"You have {@variantrule Resistance|XPHB} to {{damageType}} damage."
-										]
-									}
-								}
-							]
-						}
-					},
-					"_implementations": [
-						{
-							"_variables": {
-								"color": "Amethyst",
-								"damageType": "Force"
-							},
-							"resist": [
-								"force"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Black",
-								"damageType": "Acid"
-							},
-							"resist": [
-								"acid"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Blue",
-								"damageType": "Lightning"
-							},
-							"resist": [
-								"lightning"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Brass",
-								"damageType": "Fire"
-							},
-							"resist": [
-								"fire"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Bronze",
-								"damageType": "Lightning"
-							},
-							"resist": [
-								"lightning"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Copper",
-								"damageType": "Acid"
-							},
-							"resist": [
-								"acid"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Crystal",
-								"damageType": "Radiant"
-							},
-							"resist": [
-								"radiant"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Emerald",
-								"damageType": "Psychic"
-							},
-							"resist": [
-								"psychic"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Gold",
-								"damageType": "Fire"
-							},
-							"resist": [
-								"fire"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Green",
-								"damageType": "Poison"
-							},
-							"resist": [
-								"poison"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Red",
-								"damageType": "Fire"
-							},
-							"resist": [
-								"fire"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Sapphire",
-								"damageType": "Thunder"
-							},
-							"resist": [
-								"thunder"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Silver",
-								"damageType": "Cold"
-							},
-							"resist": [
-								"cold"
-							]
-						},
-						{
-							"_variables": {
-								"color": "Topaz",
-								"damageType": "Necrotic"
-							},
-							"resist": [
-								"necrotic"
-							]
-						},
-						{
-							"_variables": {
-								"color": "White",
-								"damageType": "Cold"
-							},
-							"resist": [
-								"cold"
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Dwarf (Minesaint)",
-			"source": "FRV",
-			"page": 1,
-			"creatureTypes": [
-				"humanoid"
-			],
+                {
+                    "type": "entries",
+                    "name": "Draconic Ancestry",
+                    "entries": [
+                        "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and {@variantrule Damage|XPHB} {@variantrule Resistance|XPHB} traits as well as your appearance.",
+                        {
+                            "type": "table",
+                            "caption": "Draconic Ancestors",
+                            "colLabels": [
+                                "Dragon",
+                                "Damage Type"
+                            ],
+                            "colStyles": [
+                                "col-6",
+                                "col-6"
+                            ],
+                            "rows": [
+                                [
+                                    "Amethyst",
+                                    "Force"
+                                ],
+                                [
+                                    "Black",
+                                    "Acid"
+                                ],
+                                [
+                                    "Blue",
+                                    "Lightning"
+                                ],
+                                [
+                                    "Brass",
+                                    "Fire"
+                                ],
+                                [
+                                    "Bronze",
+                                    "Lightning"
+                                ],
+                                [
+                                    "Copper",
+                                    "Acid"
+                                ],
+                                [
+                                    "Crystal",
+                                    "Radiant"
+                                ],
+                                [
+                                    "Emerald",
+                                    "Psychic"
+                                ],
+                                [
+                                    "Gold",
+                                    "Fire"
+                                ],
+                                [
+                                    "Green",
+                                    "Poison"
+                                ],
+                                [
+                                    "Red",
+                                    "Fire"
+                                ],
+                                [
+                                    "Sapphire",
+                                    "Thunder"
+                                ],
+                                [
+                                    "Silver",
+                                    "Cold"
+                                ],
+                                [
+                                    "Topaz",
+                                    "Necrotic"
+                                ],
+                                [
+                                    "White",
+                                    "Cold"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Breath Weapon",
+                    "entries": [
+                        "When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ({@dc 8} plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes {@damage 1d10} damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by {@damage 1d10} when you reach character levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10}).",
+                        "You can use this Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+                        "Intelligence, Wisdom or Charisma is your ability modifier for your breath weapon, chosen when selecting this species."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Damage Resistance",
+                    "entries": [
+                        "You have {@variantrule Resistance|XPHB} to the damage type determined by your Draconic Ancestry trait."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Draconic Flight",
+                    "entries": [
+                        "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a {@variantrule Bonus Action|XPHB}, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the {@condition Incapacitated|XPHB} condition. During that time, you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+                    ]
+                }
+            ],
+            "_versions": [
+                {
+                    "_abstract": {
+                        "name": "Dragonborn ({{color}})",
+                        "source": "FRV",
+                        "_mod": {
+                            "entries": [
+                                {
+                                    "mode": "removeArr",
+                                    "names": "Draconic Ancestry"
+                                },
+                                {
+                                    "mode": "replaceArr",
+                                    "replace": "Breath Weapon",
+                                    "items": {
+                                        "type": "entries",
+                                        "name": "Breath Weapon",
+                                        "entries": [
+                                            "When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ({@dc 8} plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes {@damage 1d10} {{damageType}} damage. On a successful save, a creature takes half as much damage. This damage increases by {@damage 1d10} when you reach character levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10}).",
+                                            "You can use this Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+                                            "Intelligence, Wisdom or Charisma is your ability modifier for your breath weapon, chosen when selecting this species."
+                                        ]
+                                    }
+                                },
+                                {
+                                    "mode": "replaceArr",
+                                    "replace": "Damage Resistance",
+                                    "items": {
+                                        "type": "entries",
+                                        "name": "Damage Resistance",
+                                        "entries": [
+                                            "You have {@variantrule Resistance|XPHB} to {{damageType}} damage."
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "_implementations": [
+                        {
+                            "_variables": {
+                                "color": "Amethyst",
+                                "damageType": "Force"
+                            },
+                            "resist": [
+                                "force"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Black",
+                                "damageType": "Acid"
+                            },
+                            "resist": [
+                                "acid"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Blue",
+                                "damageType": "Lightning"
+                            },
+                            "resist": [
+                                "lightning"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Brass",
+                                "damageType": "Fire"
+                            },
+                            "resist": [
+                                "fire"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Bronze",
+                                "damageType": "Lightning"
+                            },
+                            "resist": [
+                                "lightning"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Copper",
+                                "damageType": "Acid"
+                            },
+                            "resist": [
+                                "acid"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Crystal",
+                                "damageType": "Radiant"
+                            },
+                            "resist": [
+                                "radiant"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Emerald",
+                                "damageType": "Psychic"
+                            },
+                            "resist": [
+                                "psychic"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Gold",
+                                "damageType": "Fire"
+                            },
+                            "resist": [
+                                "fire"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Green",
+                                "damageType": "Poison"
+                            },
+                            "resist": [
+                                "poison"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Red",
+                                "damageType": "Fire"
+                            },
+                            "resist": [
+                                "fire"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Sapphire",
+                                "damageType": "Thunder"
+                            },
+                            "resist": [
+                                "thunder"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Silver",
+                                "damageType": "Cold"
+                            },
+                            "resist": [
+                                "cold"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "Topaz",
+                                "damageType": "Necrotic"
+                            },
+                            "resist": [
+                                "necrotic"
+                            ]
+                        },
+                        {
+                            "_variables": {
+                                "color": "White",
+                                "damageType": "Cold"
+                            },
+                            "resist": [
+                                "cold"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dwarf (Minesaint)",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
             "ability": [
                 {
                     "choose": {
@@ -2501,22 +2501,22 @@
             "age": {
                 "max": 250
             },
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 120,
-			"resist": [
-				"poison"
-			],
-			"sizeEntry": {
-				"type": "item",
-				"name": "Size:",
-				"entries": [
-					"Medium (about 4-5 feet tall)"
-				]
-			},
-			"entries": [
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 120,
+            "resist": [
+                "poison"
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 4-5 feet tall)"
+                ]
+            },
+            "entries": [
                 "Dwarves are a proud and ancient race, shaped by the stone and fire of the world itself. Known for their resilience, craftsmanship, and unyielding loyalty, they are the children of the mountains and the caverns, their history etched in the very bedrock of the realms they inhabit.",
                 "Many dwarves believe their lineage ties directly to the great mountains that dot the landscapes, with clans often claiming descent from specific peaks or caverns. These ancestral ties shape their culture and give each clan a unique identity, symbolized through heraldry, artifacts, and meticulously preserved histories.",
                 "Dwarves are stocky and sturdy, their physical forms reflecting their connection to stone and endurance. Standing shorter than most other races, they make up for their lack of height with broad shoulders, dense muscle, and a natural resistance to hardship. Their skin tones range from the deep bronze of polished ore to the pale gray of granite, and their eyes often gleam with colors reminiscent of precious gems.",
@@ -2528,27 +2528,27 @@
                         "Dwarves typically live for up to 250 years and are a Common species."
                     ]
                 },
-				{
-					"type": "entries",
-					"name": "Enhanced Darkvision",
-					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dwarven Resilience",
-					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dwarven Toughness",
-					"entries": [
-						"Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
-					]
-				},
+                {
+                    "type": "entries",
+                    "name": "Enhanced Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 120 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Resilience",
+                    "entries": [
+                        "You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Toughness",
+                    "entries": [
+                        "Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Tool Expertise",
@@ -2556,15 +2556,15 @@
                         "Select one tool you are {@variantrule Proficiency|XPHB|proficient} with, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is now doubled for any ability check you make that uses your {@variantrule Proficiency|XPHB} with that tool."
                     ]
                 }
-			]
-		},
-		{
-			"name": "Dwarf (Stonesmith)",
-			"source": "FRV",
-			"page": 1,
-			"creatureTypes": [
-				"humanoid"
-			],
+            ]
+        },
+        {
+            "name": "Dwarf (Stonesmith)",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
             "ability": [
                 {
                     "choose": {
@@ -2581,35 +2581,35 @@
             "age": {
                 "max": 250
             },
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"resist": [
-				"poison"
-			],
-			"toolProficiencies": [
-				{
-					"smith's tools": true
-				}
+            "size": [
+                "M"
             ],
-			"weaponProficiencies": [
-				{
-					"choose": {
-						"fromFilter": "source=xphb|category=basic|type=martial weapon;simple weapon",
-						"count": 2
-					}
-				}
-			],
-			"sizeEntry": {
-				"type": "item",
-				"name": "Size:",
-				"entries": [
-					"Medium (about 4-5 feet tall)"
-				]
-			},
-			"entries": [
+            "speed": 30,
+            "darkvision": 60,
+            "resist": [
+                "poison"
+            ],
+            "toolProficiencies": [
+                {
+                    "smith's tools": true
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "choose": {
+                        "fromFilter": "source=xphb|category=basic|type=martial weapon;simple weapon",
+                        "count": 2
+                    }
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (about 4-5 feet tall)"
+                ]
+            },
+            "entries": [
                 "Dwarves are a proud and ancient race, shaped by the stone and fire of the world itself. Known for their resilience, craftsmanship, and unyielding loyalty, they are the children of the mountains and the caverns, their history etched in the very bedrock of the realms they inhabit.",
                 "Many dwarves believe their lineage ties directly to the great mountains that dot the landscapes, with clans often claiming descent from specific peaks or caverns. These ancestral ties shape their culture and give each clan a unique identity, symbolized through heraldry, artifacts, and meticulously preserved histories.",
                 "Dwarves are stocky and sturdy, their physical forms reflecting their connection to stone and endurance. Standing shorter than most other races, they make up for their lack of height with broad shoulders, dense muscle, and a natural resistance to hardship. Their skin tones range from the deep bronze of polished ore to the pale gray of granite, and their eyes often gleam with colors reminiscent of precious gems.",
@@ -2621,27 +2621,27 @@
                         "Dwarves typically live for up to 250 years and are a Common species."
                     ]
                 },
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You have {@sense Darkvision|XPHB} with a range of 60 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dwarven Resilience",
-					"entries": [
-						"You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dwarven Toughness",
-					"entries": [
-						"Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
-					]
-				},
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Resilience",
+                    "entries": [
+                        "You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Toughness",
+                    "entries": [
+                        "Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
+                    ]
+                },
                 {
                     "type": "entries",
                     "name": "Tool Proficiency",
@@ -2656,8 +2656,8 @@
                         "You gain {@variantrule Proficiency|XPHB} with 2 {@filter simple or martial weapons|items|source=xphb|category=basic|type=martial weapon;simple weapon} of your choice."
                     ]
                 }
-			]
-		},
+            ]
+        },
         {
             "name": "Eladrin",
             "source": "FRV",
@@ -2700,7 +2700,7 @@
             },
             "entries": [
                 "The Eladrin are an ancient and enigmatic elven subrace, deeply entwined with the natural world. Unlike their kin who remain stewards of forests or cities, the Eladrin are uniquely attuned to the ebb and flow of nature's seasons and energies. Over millennia, their bond with the wilds has grown so profound that they have physically and spiritually fused with the plants and flora around them, their bodies evolving to reflect the season of their lives.",
-                "Eladrin mythology tells of a time long ago when their ancestors fled a dying forest, their lives and magic bound to its fading lifeforce. Desperate to survive, they beseeched the natural spirits and the gods of the wild for salvation. In an act of divine grace—or perhaps through an ancient ritual lost to time—the elves merged with the essence of nature itself. The forest was reborn through them, and they became its living extension.",
+                "Eladrin mythology tells of a time long ago when their ancestors fled a dying forest, their lives and magic bound to its fading lifeforce. Desperate to survive, they beseeched the natural spirits and the gods of the wild for salvation. In an act of divine grace\u2014or perhaps through an ancient ritual lost to time\u2014the elves merged with the essence of nature itself. The forest was reborn through them, and they became its living extension.",
                 "As the Eladrin age and mature, their plantlike features become more pronounced, reflecting both their individual essence and the seasonal impact of their lives. Each season is not merely a reflection of appearance but also temperament. Many Eladrin find their personalities subtly shifting with the turning of the seasons, allowing them to adapt to the changing needs of their people and the world around them.",
                 {
                     "type": "entries",
@@ -2715,35 +2715,35 @@
                     "entries": [
                         "The season an Eladrin is born determines their appearance and their abilities. Choose your season or roll on the Eladrin Seasons table. Your Seasonal Slumber trait lets you change your season:",
                         {
-							"type": "table",
-							"caption": "Eladrin Seasons",
-							"colLabels": [
-								"d4",
-								"Season"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-12"
-							],
-							"rows": [
-								[
-									"1",
-									"{@b Spring}: Cheerfulness and celebration, marked by merriment and hope as winter's sorrow passes."
-								],
-								[
-									"2",
-									"{@b Summer}: Boldness and aggression, a time of unfettered energy and calls to action."
-								],
-								[
-									"3",
-									"{@b Autumn}: Peace and goodwill, when summer's harvest is shared with all."
-								],
-								[
-									"4",
-									"{@b Winter}: Contemplation and dolor, when the vibrant energy of the world slumbers."
-								]
-							]
-						}
+                            "type": "table",
+                            "caption": "Eladrin Seasons",
+                            "colLabels": [
+                                "d4",
+                                "Season"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-12"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "{@b Spring}: Cheerfulness and celebration, marked by merriment and hope as winter's sorrow passes."
+                                ],
+                                [
+                                    "2",
+                                    "{@b Summer}: Boldness and aggression, a time of unfettered energy and calls to action."
+                                ],
+                                [
+                                    "3",
+                                    "{@b Autumn}: Peace and goodwill, when summer's harvest is shared with all."
+                                ],
+                                [
+                                    "4",
+                                    "{@b Winter}: Contemplation and dolor, when the vibrant energy of the world slumbers."
+                                ]
+                            ]
+                        }
                     ]
                 },
                 {
@@ -2830,36 +2830,36 @@
             ],
             "speed": 30,
             "darkvision": 60,
-			"additionalSpells": [
-				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							{
-								"choose": "level=0|class=Wizard|source=xphb",
-								"count": 1
-							}
-						]
-					}
-				}
-			],
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"insight",
-							"perception",
-							"survival"
-						]
-					}
-				}
-			],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            {
+                                "choose": "level=0|class=Wizard|source=xphb",
+                                "count": 1
+                            }
+                        ]
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
             "sizeEntry": {
                 "type": "item",
                 "name": "Size:",
@@ -2951,41 +2951,41 @@
             ],
             "speed": 35,
             "darkvision": 60,
-			"additionalSpells": [
-				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"known": {
-						"_": [
-							"druidcraft|xphb#c"
-						]
-					}
-				}
-			],
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"insight",
-							"perception",
-							"survival"
-						]
-					}
-				}
-			],
-			"weaponProficiencies": [
-				{
-					"longsword|xphb": true,
-					"shortsword|xphb": true,
-					"shortbow|xphb": true,
-					"longbow|xphb": true
-				}
-			],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "_": [
+                            "druidcraft|xphb#c"
+                        ]
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "insight",
+                            "perception",
+                            "survival"
+                        ]
+                    }
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "longsword|xphb": true,
+                    "shortsword|xphb": true,
+                    "shortbow|xphb": true,
+                    "longbow|xphb": true
+                }
+            ],
             "sizeEntry": {
                 "type": "item",
                 "name": "Size:",
@@ -3076,18 +3076,18 @@
                 "M"
             ],
             "speed": 35,
-			"skillProficiencies": [
-				{
-					"choose": {
-						"from": [
-							"animal handling",
-							"medicine",
-							"nature",
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "animal handling",
+                            "medicine",
+                            "nature",
                             "survival"
-						]
-					}
-				}
-			],
+                        ]
+                    }
+                }
+            ],
             "sizeEntry": {
                 "type": "item",
                 "name": "Size:",
@@ -3137,7 +3137,6 @@
                 }
             ]
         },
-
         {
             "name": "Firbolg",
             "source": "FRV",
@@ -3165,31 +3164,31 @@
                 "M"
             ],
             "speed": 30,
-			"skillProficiencies": [
+            "skillProficiencies": [
                 {
-				    "athletics": true
+                    "athletics": true
                 }
-			],
-			"traitTags": [
-				"Powerful Build"
-			],
-			"additionalSpells": [
-				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
-					"innate": {
-						"1": [
-							"detect magic|xphb",
-							"disguise self|xphb"
-						]
-					}
-				}
-			],
+            ],
+            "traitTags": [
+                "Powerful Build"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "innate": {
+                        "1": [
+                            "detect magic|xphb",
+                            "disguise self|xphb"
+                        ]
+                    }
+                }
+            ],
             "sizeEntry": {
                 "type": "item",
                 "name": "Size:",
@@ -3213,14 +3212,14 @@
                     "name": "Firbolg Magic",
                     "entries": [
                         "You can cast {@spell Detect Magic|XPHB} and {@spell Disguise Self|XPHB} with this trait. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait, selected when you choose this species.",
-                        "Once you cast either spell, you can’t cast it again with this trait until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. When you use this version of {@spell Disguise Self|XPHB}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+                        "Once you cast either spell, you can\u2019t cast it again with this trait until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. When you use this version of {@spell Disguise Self|XPHB}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Hidden Step",
                     "entries": [
-                        "As a {@variantrule Bonus Action|XPHB}, you can magically turn {@condition Invisible|XPHB} until the start of your next turn or until you attack, make a damage roll, or force someone to make a {@variantrule Saving Throw|XPHB}. Once you use this trait, you can’t use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                        "As a {@variantrule Bonus Action|XPHB}, you can magically turn {@condition Invisible|XPHB} until the start of your next turn or until you attack, make a damage roll, or force someone to make a {@variantrule Saving Throw|XPHB}. Once you use this trait, you can\u2019t use it again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
                     ]
                 },
                 {
@@ -3232,7 +3231,7 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Forest Guardian’s Strength",
+                    "name": "Forest Guardian\u2019s Strength",
                     "entries": [
                         "You gain {@variantrule Proficiency|XPHB} in the {@skill Athletics} skill. Additionally, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
                     ]
