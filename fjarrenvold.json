@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.26",
+                "version": "1.0.27",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741200772
+        "dateLastModified": 1741201281
     },
     "background": [
         {
@@ -3878,6 +3878,79 @@
                     "name": "Relentless Endurance",
                     "entries": [
                         "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ribbet",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 20
+            },
+            "size": [
+                "S"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": true
+            },
+            "skillProficiencies": [
+                {
+                    "perception": true
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (About 2-3 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Long Tongue",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB} you can use your long tongue to grab onto creatures or obhects within 30 feet of you. You can then pull yourself into an unoccupied space within 5ft of your target. You may do so a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. Regaining all uses upon completing a {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amphibious",
+                    "entries": [
+                        "You can breathe underwater and have a {@variantrule Swim Speed|XPHB} equal to your {@variantrule Speed|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Slippery Skin",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on {@skill Athletics} or {@skill Acrobatics} checks to escape from being {@condition Grappled|XPHB} or {@condition Restrained|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@skill Perception} skill."
                     ]
                 }
             ]
