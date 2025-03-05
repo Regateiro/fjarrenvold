@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.1.0",
+                "version": "1.1.1",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741202322
+        "dateLastModified": 1741202746
     },
     "background": [
         {
@@ -4149,8 +4149,6 @@
                     ]
                 }
             ],
-            "hasFluff": true,
-            "hasFluffImages": true,
             "_versions": [
                 {
                     "name": "Tiefling; Abyssal Legacy",
