@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.18",
+                "version": "1.0.19",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741132101
+        "dateLastModified": 1741189642
     },
     "background": [
         {
@@ -2750,7 +2750,7 @@
                     "type": "entries",
                     "name": "Seasonal Slumber",
                     "entries": [
-                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook."
+                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. These proficiencies last until you next finish a {@variantrule Long Rest|XPHB}."
                     ]
                 },
                 {
