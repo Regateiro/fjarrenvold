@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.28",
+                "version": "1.1.0",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741201788
+        "dateLastModified": 1741202322
     },
     "background": [
         {
@@ -3191,7 +3191,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
+                    "Small (about 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
                 ]
             },
             "entries": [
@@ -3294,7 +3294,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
+                    "Small (about 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
                 ]
             },
             "entries": [
@@ -3392,7 +3392,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 3-4 feet tall)"
+                    "Small (about 3-4 feet tall)"
                 ]
             },
             "entries": [
@@ -3475,7 +3475,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 3-4 feet tall)"
+                    "Small (about 3-4 feet tall)"
                 ]
             },
             "entries": [
@@ -3541,7 +3541,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Medium (About 7-9 feet tall)"
+                    "Medium (about 7-9 feet tall)"
                 ]
             },
             "entries": [
@@ -3644,7 +3644,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 2-3 feet tall)"
+                    "Small (about 2-3 feet tall)"
                 ]
             },
             "entries": [
@@ -3728,7 +3728,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 3-5 feet tall) or Medium (About 5-7 feet tall), chosen when you select this species"
+                    "Small (about 3-5 feet tall) or Medium (about 5-7 feet tall), chosen when you select this species"
                 ]
             },
             "entries": [
@@ -3788,7 +3788,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 2-4 feet tall) or Medium (About 4-6 feet tall), chosen when you select this species"
+                    "Small (about 2-4 feet tall) or Medium (about 4-6 feet tall), chosen when you select this species"
                 ]
             },
             "entries": [
@@ -3854,7 +3854,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Medium (About 6-7 feet tall)"
+                    "Medium (about 6-7 feet tall)"
                 ]
             },
             "entries": [
@@ -3921,7 +3921,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Small (About 2-3 feet tall)"
+                    "Small (about 2-3 feet tall)"
                 ]
             },
             "entries": [
@@ -4004,7 +4004,7 @@
                 "type": "item",
                 "name": "Size:",
                 "entries": [
-                    "Medium (About 4-5 feet tall)"
+                    "Medium (about 4-5 feet tall)"
                 ]
             },
             "entries": [
@@ -4036,6 +4036,285 @@
                         "You have a prehensile tail that allows you to maintain balance and dexterity in precarious situations. When you are in an environment where your tail can wrap around a suitable point\u2014such as a tree branch, rock outcrop, or similar structure\u2014you can use your tail to hang while keeping both of your hands free to wield weapons or perform other tasks.",
                         "While hanging from your tail, you can hold and wield weapons with your hands, even while your tail is supporting your weight. This allows you to use your weapons without losing your grip or control, enabling you to perform attacks, cast spells, or use other items as needed.",
                         "Your tail cannot support your weight if you are wearing heavy armor or are carrying more than your carrying capacity."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tiefling",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "con",
+                            "int",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "thaumaturgy|xphb#c"
+                        ]
+                    }
+                }
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (about 3-4 feet tall) or Medium (about 4-7 feet tall), chosen when you select this species"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fiendish Legacy",
+                    "entries": [
+                        "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.",
+                        "When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
+                        {
+                            "type": "table",
+                            "caption": "Fiendish Legacies",
+                            "colLabels": [
+                                "Legacy",
+                                "Level 1",
+                                "Level 3",
+                                "Level 5"
+                            ],
+                            "colStyles": [
+                                "col-2",
+                                "col-6",
+                                "col-2",
+                                "col-2"
+                            ],
+                            "rows": [
+                                [
+                                    "Abyssal",
+                                    "You have Resistance to Poison damage. You also know the {@spell Poison Spray|XPHB} cantrip.",
+                                    "{@spell Ray of Sickness|XPHB}",
+                                    "{@spell Hold Person|XPHB}"
+                                ],
+                                [
+                                    "Chthonic",
+                                    "You have Resistance to Necrotic damage. You also know the {@spell Chill Touch|XPHB} cantrip.",
+                                    "{@spell False Life|XPHB}",
+                                    "{@spell Ray of Enfeeblement|XPHB}"
+                                ],
+                                [
+                                    "Infernal",
+                                    "You have Resistance to Fire damage. You also know the {@spell Fire Bolt|XPHB} cantrip.",
+                                    "{@spell Hellish Rebuke|XPHB}",
+                                    "{@spell Darkness|XPHB}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Otherworldly Presence",
+                    "entries": [
+                        "You know the {@spell Thaumaturgy|XPHB} cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "_versions": [
+                {
+                    "name": "Tiefling; Abyssal Legacy",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Fiendish Legacy",
+                            "items": {
+                                "name": "Fiendish Legacy (Abyssal)",
+                                "type": "entries",
+                                "entries": [
+                                    "You are the recipient of a legacy that grants you supernatural abilities. You have {@variantrule Resistance|XPHB} to Poison damage. You also know the {@spell Poison Spray|XPHB} cantrip.",
+                                    "When you reach character level 3, you learn the {@spell Ray of Sickness|XPHB} spell. When you reach character level 5, you also learn the {@spell Hold Person|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+                                    "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+                                ]
+                            }
+                        }
+                    },
+                    "resist": [
+                        "poison"
+                    ],
+                    "additionalSpells": [
+                        {
+                            "innate": {
+                                "3": {
+                                    "daily": {
+                                        "1": [
+                                            "ray of sickness|xphb"
+                                        ]
+                                    }
+                                },
+                                "5": {
+                                    "daily": {
+                                        "1": [
+                                            "hold person|xphb"
+                                        ]
+                                    }
+                                }
+                            },
+                            "ability": {
+                                "choose": [
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ]
+                            },
+                            "known": {
+                                "1": [
+                                    "thaumaturgy|xphb#c",
+                                    "poison spray|xphb#c"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Tiefling; Chthonic Legacy",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Fiendish Legacy",
+                            "items": {
+                                "name": "Fiendish Legacy (Chthonic)",
+                                "type": "entries",
+                                "entries": [
+                                    "You are the recipient of a legacy that grants you supernatural abilities. You have {@variantrule Resistance|XPHB} to Necrotic damage. You also know the {@spell Chill Touch|XPHB} cantrip.",
+                                    "When you reach character level 3, you learn the {@spell False Life|XPHB} spell. When you reach character level 5, you also learn the {@spell Ray of Enfeeblement|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+                                    "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+                                ]
+                            }
+                        }
+                    },
+                    "resist": [
+                        "necrotic"
+                    ],
+                    "additionalSpells": [
+                        {
+                            "innate": {
+                                "3": {
+                                    "daily": {
+                                        "1": [
+                                            "false life|xphb"
+                                        ]
+                                    }
+                                },
+                                "5": {
+                                    "daily": {
+                                        "1": [
+                                            "ray of enfeeblement|xphb"
+                                        ]
+                                    }
+                                }
+                            },
+                            "ability": {
+                                "choose": [
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ]
+                            },
+                            "known": {
+                                "1": [
+                                    "thaumaturgy|xphb#c",
+                                    "chill touch|xphb#c"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Tiefling; Infernal Legacy",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Fiendish Legacy",
+                            "items": {
+                                "name": "Fiendish Legacy (Infernal)",
+                                "type": "entries",
+                                "entries": [
+                                    "You are the recipient of a legacy that grants you supernatural abilities. You have {@variantrule Resistance|XPHB} to Fire damage. You also know the {@spell Fire Bolt|XPHB} cantrip.",
+                                    "When you reach character level 3, you learn the {@spell Hellish Rebuke|XPHB} spell. When you reach character level 5, you also learn the {@spell Darkness|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+                                    "Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+                                ]
+                            }
+                        }
+                    },
+                    "resist": [
+                        "fire"
+                    ],
+                    "additionalSpells": [
+                        {
+                            "innate": {
+                                "3": {
+                                    "daily": {
+                                        "1": [
+                                            "hellish rebuke|xphb"
+                                        ]
+                                    }
+                                },
+                                "5": {
+                                    "daily": {
+                                        "1": [
+                                            "darkness|xphb"
+                                        ]
+                                    }
+                                }
+                            },
+                            "ability": {
+                                "choose": [
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ]
+                            },
+                            "known": {
+                                "1": [
+                                    "thaumaturgy|xphb#c",
+                                    "fire bolt|xphb#c"
+                                ]
+                            }
+                        }
                     ]
                 }
             ]
