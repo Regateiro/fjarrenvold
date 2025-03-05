@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.21",
+                "version": "1.0.22",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741198329
+        "dateLastModified": 1741199243
     },
     "background": [
         {
@@ -2110,11 +2110,11 @@
                                 ],
                                 [
                                     "Crescent Moon",
-                                    "Once before your next {@variantrule Long Rest|XPHB}, you can call upon the power of the moon to gain a +1 bonus to {@variantrule Attack Roll|XPHB|Attack Rolls} made with ranged weapons or spell attacks for 1 minute."
+                                    "Once before your next {@variantrule Long Rest|XPHB}, you can call upon the power of the moon to gain a +1 bonus to {@variantrule Attack Roll|XPHB|Attack Rolls} made with ranged weapons or {@variantrule Spell Attack|XPHB|Spell Attacks} for 1 minute."
                                 ],
                                 [
                                     "New Moon",
-                                    "When you hit a creature with a spell or weapon attack, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
+                                    "When you hit a creature with a {@variantrule Spell Attack|XPHB|Spell} or {@variantrule Weapon Attack|XPHB}, you can impose {@variantrule Disadvantage|XPHB} on its next {@variantrule Attack Roll|XPHB}. You may do this a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, losing all unspent uses at the start of your next {@variantrule Long Rest|XPHB}."
                                 ]
                             ]
                         }
@@ -3500,6 +3500,115 @@
                         "You know the {@spell Mending|XPHB} and {@spell Prestidigitation|XPHB} cantrips.",
                         "In addition, you can spend 10 minutes casting {@spell Prestidigitation|XPHB} to create a Tiny clockwork device (AC 5,1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from {@spell Prestidigitation|XPHB}; the device produces that effect whenever you or another creature takes a {@variantrule Bonus Action|XPHB} to activate it with a touch.",
                         "If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a {@action Utilize|XPHB} action."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Goliath",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 120
+            },
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "traitTags": [
+                "Powerful Build"
+            ],
+            "resist": [
+                "cold"
+            ],
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Medium (About 7-9 feet tall)"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Giant Ancestry",
+                    "entries": [
+                        "You are descended from Giants. Choose one of the Ancestry benefits from the Goliath Ancestries table - a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+                        {
+                            "type": "table",
+                            "caption": "Goliath Ancestries",
+                            "colLabels": [
+                                "Goliath Ancestry",
+                                "Boon"
+                            ],
+                            "colStyles": [
+                                "col-3 text-center",
+                                "col-12"
+                            ],
+                            "rows": [
+                                [
+                                    "Cloud Giant",
+                                    "As a {@variantrule Bonus Action|XPHB}, you magically teleport up to 30 feet to an unoccupied space you can see."
+                                ],
+                                [
+                                    "Fire Giant",
+                                    "When you hit a target with an {@variantrule Attack Roll|XPHB} and deal damage to it, you can also deal {@damage 1d10} Fire damage to that target."
+                                ],
+                                [
+                                    "Frost Giant",
+                                    "When you hit a target with an {@variantrule Attack Roll|XPHB} and deal damage to it, you can also deal {@damage 1d6} Cold damage to that target and reduce its {@variantrule Speed|XPHB} by 10 feet until the start of your next turn."
+                                ],
+                                [
+                                    "Hill Giant",
+                                    "When you hit a Large or smaller creature with an {@variantrule Attack Roll|XPHB} and deal damage to it, you can give that target the {@condition Prone|XPHB} condition."
+                                ],
+                                [
+                                    "Stone Giant",
+                                    "When you take damage, you can take a {@variantrule Reaction|XPHB} to roll {@dice 1d12}. Add your Constitution modifier to the number rolled and reduce the damage by that total."
+                                ],
+                                [
+                                    "Storm Giant",
+                                    "When you take damage from a creature within 60 feet of you, you can take a {@variantrule Reaction|XPHB} to deal {@damage 1d8} Thunder damage to that creature."
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Large Form",
+                    "entries": [
+                        "Starting at character level 5, you can change your size to Large as a {@variantrule Bonus Action|XPHB} if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have {@variantrule Advantage|XPHB} on Strength checks, and your {@variantrule Speed|XPHB} increases by 10 feet. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Powerful Build",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on any {@variantrule Saving Throw|XPHB} you make to end the {@condition Grappled|XPHB} condition. You also count as one size larger when determining your carrying capacity."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Skin of Stone",
+                    "entries": [
+                        "You have {@variantrule Resistance|XPHB} to Cold damage."
                     ]
                 }
             ]
