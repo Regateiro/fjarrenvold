@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.0.24",
+                "version": "1.0.25",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741200148
+        "dateLastModified": 1741200494
     },
     "background": [
         {
@@ -3751,6 +3751,73 @@
                     "name": "Versatile",
                     "entries": [
                         "You gain an {@filter Origin feat|feats|category=o} of your choice. {@feat Skilled|XPHB} is recommended."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Katari",
+            "source": "FRV",
+            "page": 1,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "age": {
+                "max": 50
+            },
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 35,
+            "darkvision": 60,
+            "sizeEntry": {
+                "type": "item",
+                "name": "Size:",
+                "entries": [
+                    "Small (About 2-4 feet tall) or Medium (About 4-6 feet tall), chosen when you select this species"
+                ]
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You have {@sense Darkvision|XPHB} with a range of 60 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Feline Instincts",
+                    "entries": [
+                        "Whenever you fail a Dexterity {@variantrule Saving Throw|XPHB}, you can reroll the die. You must take the new result. You can use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} per {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sharpened Claws",
+                    "entries": [
+                        "When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with a swipe of your claws on a creature within 5 feet of you. The creature must make a Dexterity {@variantrule Saving Throw|XPHB} (DC 8 plus your dexterity modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, the creature takes {@damage 2d4} Slashing damage and cannot take {@variantrule Reaction|XPHB|Reactions} until the end of its next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Nimble Reactions",
+                    "entries": [
+                        "When you suffer fall damage, reduce the total damage taken by 1 for each 10 feet you fell to a maximum of 20 damage. When you land if you fell less than 50 feet you do not suffer the {@condition Prone|XPHB} condition. This feature cannot reduce falling damage below 1."
                     ]
                 }
             ]
