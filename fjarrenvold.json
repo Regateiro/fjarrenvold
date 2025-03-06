@@ -6,7 +6,7 @@
                 "abbreviation": "FRV",
                 "full": "Fjarrenvold",
                 "url": "https://www.gmbinder.com/share/-OEl9Ze0fHXfb2ndFW3A",
-                "version": "1.1.1",
+                "version": "1.1.2",
                 "authors": [
                     "Valasca"
                 ],
@@ -16,7 +16,7 @@
             }
         ],
         "dateAdded": 1734824400,
-        "dateLastModified": 1741202746
+        "dateLastModified": 1741295849
     },
     "background": [
         {
@@ -2449,76 +2449,7 @@
             ]
         },
         {
-            "name": "Dwarf (Minesaint)",
-            "source": "FRV",
-            "page": 1,
-            "creatureTypes": [
-                "humanoid"
-            ],
-            "ability": [
-                {
-                    "choose": {
-                        "from": [
-                            "str",
-                            "con",
-                            "wis"
-                        ],
-                        "count": 1,
-                        "amount": 1
-                    }
-                }
-            ],
-            "age": {
-                "max": 250
-            },
-            "size": [
-                "M"
-            ],
-            "speed": 30,
-            "darkvision": 120,
-            "resist": [
-                "poison"
-            ],
-            "sizeEntry": {
-                "type": "item",
-                "name": "Size:",
-                "entries": [
-                    "Medium (about 4-5 feet tall)"
-                ]
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Enhanced Darkvision",
-                    "entries": [
-                        "You have {@sense Darkvision|XPHB} with a range of 120 feet."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Dwarven Resilience",
-                    "entries": [
-                        "You have {@variantrule Resistance|XPHB} to Poison damage. You also have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition Poisoned|XPHB} condition."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Dwarven Toughness",
-                    "entries": [
-                        "Your {@variantrule Hit Points|XPHB|Hit Point} maximum increases by 1, and it increases by 1 again whenever you gain a level."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Tool Expertise",
-                    "entries": [
-                        "Select one tool you are {@variantrule Proficiency|XPHB|proficient} with, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is now doubled for any ability check you make that uses your {@variantrule Proficiency|XPHB} with that tool."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Dwarf (Stonesmith)",
+            "name": "Dwarf",
             "source": "FRV",
             "page": 1,
             "creatureTypes": [
@@ -2547,19 +2478,6 @@
             "darkvision": 60,
             "resist": [
                 "poison"
-            ],
-            "toolProficiencies": [
-                {
-                    "smith's tools": true
-                }
-            ],
-            "weaponProficiencies": [
-                {
-                    "choose": {
-                        "fromFilter": "source=xphb|category=basic|type=martial weapon;simple weapon",
-                        "count": 2
-                    }
-                }
             ],
             "sizeEntry": {
                 "type": "item",
@@ -2592,16 +2510,134 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Tool Proficiency",
+                    "name": "Dwarven Heritage",
                     "entries": [
-                        "You gain {@variantrule Proficiency|XPHB} with {@item Smith's Tools|XPHB}."
+                        "Pick one of the below Dwarven Heritages, you are granted additional traits dependent on your choice.",
+                        {
+                            "type": "entries",
+                            "name": "Minesaint",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Darkvision",
+                                    "entries": [
+                                        "You have {@sense Darkvision|XPHB} with a range of 120 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tool Expertise",
+                                    "entries": [
+                                        "Select one tool you are {@variantrule Proficiency|XPHB|proficient} with, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is now doubled for any ability check you make that uses your {@variantrule Proficiency|XPHB} with that tool."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Stonesmith",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Tool Proficiency",
+                                    "entries": [
+                                        "You gain {@variantrule Proficiency|XPHB} with {@item Smith's Tools|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Smith Combat Training",
+                                    "entries": [
+                                        "You gain {@variantrule Proficiency|XPHB} with 2 {@filter simple or martial weapons|items|source=xphb|category=basic|type=martial weapon;simple weapon} of your choice."
+                                    ]
+                                }
+                            ]
+                        }
                     ]
+                }
+            ],
+            "_versions": [
+                {
+                    "name": "Dwarf (Minesaint)",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "removeArr",
+                                "names": "Darkvision"
+                            },
+                            {
+                                "mode": "removeArr",
+                                "names": "Dwarven Heritage"
+                            },
+                            {
+                                "mode": "replaceArr",
+                                "replace": "Darkvision",
+                                "items": {
+                                    "name": "Enhanced Darkvision",
+                                    "type": "entries",
+                                    "entries": [
+                                        "You have {@sense Darkvision|XPHB} with a range of 120 feet."
+                                    ]
+                                }
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": {
+                                    "name": "Tool Expertise",
+                                    "type": "entries",
+                                    "entries": [
+                                        "Select one tool you are {@variantrule Proficiency|XPHB|proficient} with, your {@variantrule Proficiency|XPHB|Proficiency Bonus} is now doubled for any ability check you make that uses your {@variantrule Proficiency|XPHB} with that tool."
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "darkvision": 120
                 },
                 {
-                    "type": "entries",
-                    "name": "Smith Combat Training",
-                    "entries": [
-                        "You gain {@variantrule Proficiency|XPHB} with 2 {@filter simple or martial weapons|items|source=xphb|category=basic|type=martial weapon;simple weapon} of your choice."
+                    "name": "Dwarf (Stonesmith)",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "removeArr",
+                                "names": "Dwarven Heritage"
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": {
+                                    "type": "entries",
+                                    "name": "Tool Proficiency",
+                                    "entries": [
+                                        "You gain {@variantrule Proficiency|XPHB} with {@item Smith's Tools|XPHB}."
+                                    ]
+                                }
+                            },
+                            {
+                                "mode": "appendArr",
+                                "items": {
+                                    "type": "entries",
+                                    "name": "Smith Combat Training",
+                                    "entries": [
+                                        "You gain {@variantrule Proficiency|XPHB} with 2 {@filter simple or martial weapons|items|source=xphb|category=basic|type=martial weapon;simple weapon} of your choice."
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "toolProficiencies": [
+                        {
+                            "smith's tools": true
+                        }
+                    ],
+                    "weaponProficiencies": [
+                        {
+                            "choose": {
+                                "fromFilter": "source=xphb|category=basic|type=martial weapon;simple weapon",
+                                "count": 2
+                            }
+                        }
                     ]
                 }
             ]
@@ -4151,7 +4187,7 @@
             ],
             "_versions": [
                 {
-                    "name": "Tiefling; Abyssal Legacy",
+                    "name": "Tiefling (Abyssal)",
                     "source": "FRV",
                     "_mod": {
                         "entries": {
@@ -4206,7 +4242,7 @@
                     ]
                 },
                 {
-                    "name": "Tiefling; Chthonic Legacy",
+                    "name": "Tiefling (Chthonic)",
                     "source": "FRV",
                     "_mod": {
                         "entries": {
@@ -4261,7 +4297,7 @@
                     ]
                 },
                 {
-                    "name": "Tiefling; Infernal Legacy",
+                    "name": "Tiefling (Infernal)",
                     "source": "FRV",
                     "_mod": {
                         "entries": {
