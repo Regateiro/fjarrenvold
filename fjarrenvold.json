@@ -3177,7 +3177,7 @@
             ]
         },
         {
-            "name": "Fungril (Flatcap)",
+            "name": "Fungril",
             "source": "FRV",
             "page": 1,
             "creatureTypes": [
@@ -3267,112 +3267,81 @@
                 },
                 {
                     "type": "entries",
-                    "name": "Fungril Formation (Flatcap)",
+                    "name": "Fungril Formations",
                     "entries": [
-                        "As a {@variantrule Reaction|XPHB} to taking damage from a melee {@variantrule Weapon Attack|XPHB} you may lower your head, softening the blow against your springy cap. You may reduce the Bludgeoning, Piercing or Slashing damage from an attack by {@dice 1d6} + your level."
+                        "Pick one of the below Fungril Formations, you are granted additional traits dependent on your choice.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Flatcap.} As a {@variantrule Reaction|XPHB} to taking damage from a melee {@variantrule Weapon Attack|XPHB} you may lower your head, softening the blow against your springy cap. You may reduce the Bludgeoning, Piercing or Slashing damage from an attack by {@dice 1d6} + your level.",
+                                "{@b Spore Shredder.} You know the {@spell Poison Spray|XPHB} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this formation."
+                            ]
+                        }
                     ]
                 }
-            ]
-        },
-        {
-            "name": "Fungril (Spore Shedder)",
-            "source": "FRV",
-            "page": 1,
-            "creatureTypes": [
-                "plant"
             ],
-            "ability": [
+            "_versions": [
                 {
-                    "choose": {
-                        "from": [
-                            "str",
-                            "int",
-                            "wis"
-                        ],
-                        "count": 1,
-                        "amount": 1
+                    "name": "Fungril (Flatcap)",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceArr",
+                                "replace": "Fungril Formations",
+                                "items": {
+                                    "type": "entries",
+                                    "name": "Fungril Formations (Flatcap)",
+                                    "entries": [
+                                        "As a {@variantrule Reaction|XPHB} to taking damage from a melee {@variantrule Weapon Attack|XPHB} you may lower your head, softening the blow against your springy cap. You may reduce the Bludgeoning, Piercing or Slashing damage from an attack by {@dice 1d6} + your level."
+                                    ]
+                                }
+                            }
+                        ]
                     }
-                }
-            ],
-            "age": {
-                "max": 50
-            },
-            "size": [
-                "S",
-                "M"
-            ],
-            "speed": 30,
-            "additionalSpells": [
+                },
                 {
-                    "ability": {
-                        "choose": [
-                            "int",
-                            "wis",
-                            "cha"
+                    "name": "Fungril (Spore Shedder)",
+                    "source": "FRV",
+                    "_mod": {
+                        "entries": [
+                            {
+                                "mode": "replaceArr",
+                                "replace": "Fungril Formations",
+                                "items": {
+                                    "type": "entries",
+                                    "name": "Fungril Formations (Spore Shredder)",
+                                    "entries": [
+                                        "You know the {@spell Poison Spray|XPHB} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this formation."
+                                    ]
+                                }
+                            }
                         ]
                     },
-                    "known": {
-                        "1": [
-                            "poison spray|xphb#c"
-                        ]
-                    },
-                    "innate": {
-                        "3": {
-                            "daily": {
-                                "1": [
-                                    "speak with plants|xphb"
+                    "additionalSpells": [
+                        {
+                            "ability": {
+                                "choose": [
+                                    "int",
+                                    "wis",
+                                    "cha"
                                 ]
+                            },
+                            "known": {
+                                "1": [
+                                    "poison spray|xphb#c"
+                                ]
+                            },
+                            "innate": {
+                                "3": {
+                                    "daily": {
+                                        "1": [
+                                            "speak with plants|xphb"
+                                        ]
+                                    }
+                                }
                             }
                         }
-                    }
-                }
-            ],
-            "toolProficiencies": [
-                {
-                    "alchemist's supplies|xphb": true
-                }
-            ],
-            "sizeEntry": {
-                "type": "item",
-                "name": "Size:",
-                "entries": [
-                    "Small (about 2-4 feet tall) or Medium (4-7 feet tall), chosen when you select this species"
-                ]
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Fungril Network",
-                    "entries": [
-                        "You can use a {@action Magic|XPHB} action to cast the {@spell Speak with Plants|XPHB} spell once per {@variantrule Long Rest|XPHB} without expending a spell slot. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this species."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Death Connection",
-                    "entries": [
-                        "You can use an {@action Influence|XPHB} action to touch a corpse that died within the past 24 hours and extract a memory relating to one of the following emotions: Anger, Fear, Happiness, Sadness. Once a corpse has had a memory extracted, they cannot be interacted with via death connection again."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mycelial Restoration",
-                    "entries": [
-                        "Whenever you or another creature rolls a 1 on a die roll that restores your {@variantrule Hit Points|XPHB}, you can reroll the die. You must use the new roll."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Fungal Alchemy",
-                    "entries": [
-                        "You have an innate understanding of alchemy, often using your own spores as ingredients. You gain {@variantrule Proficiency|XPHB} in {@item Alchemist's Supplies|XPHB}."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Fungril Formation (Spore Shedder)",
-                    "entries": [
-                        "You know the {@spell Poison Spray|XPHB} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for it, chosen when selecting this formation."
                     ]
                 }
             ]
