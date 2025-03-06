@@ -2791,25 +2791,6 @@
             ],
             "speed": 30,
             "darkvision": 60,
-            "additionalSpells": [
-                {
-                    "ability": {
-                        "choose": [
-                            "int",
-                            "wis",
-                            "cha"
-                        ]
-                    },
-                    "known": {
-                        "_": [
-                            {
-                                "choose": "level=0|class=Wizard|source=xphb",
-                                "count": 1
-                            }
-                        ]
-                    }
-                }
-            ],
             "skillProficiencies": [
                 {
                     "choose": {
